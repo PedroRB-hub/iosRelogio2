@@ -1,0 +1,54 @@
+ body {
+  /* background: linear-gradient(290deg, #19376D, #146C94); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+ }
+
+h2 {
+  color: #f4fCf4;
+  animation: growth .5s;
+  animation-fill-mode: backwards;
+  font-size: 2rem;
+}
+
+.relogio, .frase {
+  color: #fefefe;
+  font-size: 2rem;
+  animation: growth .5s;
+  animation-fill-mode: backwards;
+  font-size: 2rem;
+  margin: 12px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  margin: 100px auto;
+}
+
+a {
+  color: #A5D7E8;
+  text-decoration: none;
+  animation: growth .5s;
+  animation-fill-mode: backwards;
+  font-size: 2rem;
+}
+
+@keyframes growth {
+  0% {
+    font-size: 0;
+  }
+
+  100% {
+    font-size: 2rem, ;
+  }
+}
